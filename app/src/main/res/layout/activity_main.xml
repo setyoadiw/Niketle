@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.lukedmi.niketle.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            />
+
+        <TextView
+            android:id="@+id/tvphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:text="Logout"
+            android:onClick="Logout"
+            android:id="@+id/btLogout"
+            android:layout_height="wrap_content" />
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <FrameLayout
+            android:id="@+id/layarframelayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+
+<!--
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_gravity="bottom"
+        app:menu="@menu/navigation" />
+-->
+    <com.roughike.bottombar.BottomBar
+        android:layout_width="match_parent"
+        android:id="@+id/bottomBar"
+        android:layout_gravity="bottom"
+        app:bb_tabXmlResource="@xml/bottom"
+        app:bb_behavior="underNavbar"
+        android:layout_height="60dp">
+
+    </com.roughike.bottombar.BottomBar>
+
+
+</android.support.design.widget.CoordinatorLayout>

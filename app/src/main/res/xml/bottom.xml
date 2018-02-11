@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_black_24dp"
+        activeColor="#2196f3"
+        title="Beranda" />
+    <tab
+        id="@+id/tab_cari_tiket"
+        icon="@drawable/ic_bottom_search_24dp"
+        activeColor="#ff6d00"
+        title="Cari Tiket" />
+    <tab
+        id="@+id/tab_track"
+        icon="@drawable/ic_bottom_track_24dp"
+        activeColor="#00e676"
+        title="Riwayat" />
+    <tab
+        id="@+id/tab_more"
+        activeColor="#ff1744"
+        icon="@drawable/ic_bottom_menu_24dp"
+        title="Lainnya" />
+</tabs>

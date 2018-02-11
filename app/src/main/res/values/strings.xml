@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Niketle</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- Facebook Account Kit -->
+    <string name="FACEBOOK_APP_ID">167382730554612</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">39489db6a91f86f81d9405b3a4ca2152</string>
+    <string name="ak_login_protocol_scheme">ak167382730554612</string>
+
+    <!-- Facebook Login -->
+    <string name="fb_login_protocol_scheme">fb167382730554612</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
